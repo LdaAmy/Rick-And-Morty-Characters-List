@@ -1,0 +1,50 @@
+html, body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+  -webkit-touch-callout: none;
+            user-select: none;
+}
+
+#app {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    color: rgb(31, 31, 31);
+    align-items: center;
+    justify-content: center;
+}
+
+#card-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: var(--bs-secondary);
+}
+
+.card {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(54, 54, 54);
+    flex-direction: row;
+    color: white;
+}
+
+.card-text {
+display: flex;
+justify-content: center;
+align-items: start;
+flex-direction: column;
+font-size: 14px;
+    height: 100%;
+    width: 150px;
+    background-color: rgba(250, 235, 215, 0);
+}
